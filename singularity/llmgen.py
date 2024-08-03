@@ -1,4 +1,5 @@
-#
+from .prompts import system_msg_prompts
+from .prompts import system_msg_simple
 
 class LLMPromptGenerator:        
     def __init__(self):
